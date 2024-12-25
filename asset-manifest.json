@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a5192f0.css",
+    "main.js": "/static/js/main.ed7da4d6.js",
+    "static/media/bg_login.png": "/static/media/bg_login.430e9261dc63583c190f.png?content_encrypt=1&content_encrypt=1",
+    "static/media/DINPro-Bold.otf": "/static/media/DINPro-Bold.e18c1d1189457aa1a301.otf",
+    "static/media/DINPro-Medium.otf": "/static/media/DINPro-Medium.16a72c6a374a9c9a2572.otf",
+    "static/media/DINPro.ttf": "/static/media/DINPro.7c847a3318bd362c08a1.ttf",
+    "static/media/8.png": "/static/media/8.0ed08ed0fcf6d1283f82.png?content_encrypt=1&content_encrypt=1",
+    "static/media/4.png": "/static/media/4.1014c8c9f278622878e5.png?content_encrypt=1&content_encrypt=1",
+    "static/media/3.png": "/static/media/3.ea6dc2f3cc5ca88081d6.png?content_encrypt=1&content_encrypt=1",
+    "static/media/5.png": "/static/media/5.9bb5797870539045769c.png?content_encrypt=1&content_encrypt=1",
+    "static/media/1.png": "/static/media/1.cdf012c26c8e42eb8910.png?content_encrypt=1&content_encrypt=1",
+    "static/media/6.png": "/static/media/6.c4794e1d5a1753a8cb25.png?content_encrypt=1&content_encrypt=1",
+    "static/media/2.png": "/static/media/2.286da41d6496d0ad85d9.png?content_encrypt=1&content_encrypt=1",
+    "static/media/7.png": "/static/media/7.7929534cbcc534cb4c21.png?content_encrypt=1&content_encrypt=1",
+    "static/media/platform_text.png": "/static/media/platform_text.015a84f7eaa1df02a117.png?content_encrypt=1&content_encrypt=1",
+    "static/media/PingFangSCRegular.ttf": "/static/media/PingFangSCRegular.5a2402943eb1359687e3.ttf",
+    "static/media/din.ttf": "/static/media/din.21ce502ca067bdd2ad42.ttf",
+    "static/media/PingFangSCRegular.woff": "/static/media/PingFangSCRegular.f3656bce5997e81c4462.woff",
+    "static/media/din.woff": "/static/media/din.4c08e123e358992d00cc.woff",
+    "static/media/Akrobat-ExtraBold.ttf": "/static/media/Akrobat-ExtraBold.9af803855bb55a19fe70.ttf",
+    "static/media/Akrobat-Black.ttf": "/static/media/Akrobat-Black.fd10ad73573b98e1d334.ttf",
+    "static/media/Akrobat-Regular.ttf": "/static/media/Akrobat-Regular.323f62cff0155b078f24.ttf",
+    "static/media/Akrobat-Bold.ttf": "/static/media/Akrobat-Bold.d4e65f7df3cc101bf178.ttf",
+    "index.html": "/index.html",
+    "static/media/icon_alert_off.svg": "/static/media/icon_alert_off.8c37cedb091e0df2f3e5086aa34155a3.svg",
+    "static/media/icon_alert_on.svg": "/static/media/icon_alert_on.191a4421226318379f48991f73cdf685.svg"
+  },
+  "entrypoints": [
+    "static/css/main.9a5192f0.css",
+    "static/js/main.ed7da4d6.js"
+  ]
+}

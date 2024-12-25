@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Telegram Web App - Haptic Feedback</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .light { background-color: #f0f8ff; }
+        .medium { background-color: #add8e6; }
+        .heavy { background-color: #4682b4; color: white; }
+        .rigid { background-color: #ffa07a; }
+        .soft { background-color: #98fb98; }
+    </style>
+</head>
+<body>
+<h1>Telegram Web App - Haptic Feedback</h1>
+<p>点击下方按钮体验不同类型的触感反馈：</p>
+
+<button class="light" id="btnLight">Light Feedback</button>
+<button class="medium" id="btnMedium">Medium Feedback</button>
+<button class="heavy" id="btnHeavy">Heavy Feedback</button>
+<button class="rigid" id="btnRigid">Rigid Feedback</button>
+<button class="soft" id="btnSoft">Soft Feedback</button>
+
+<script>
+    // 获取 Telegram Web App 对象
+    const tg = window.Telegram.WebApp;
+
+    if(!tg) {
+        alert('请在TG环境中打开')
+    }
+    // 为每个按钮绑定事件监听器
+    document.getElementById('btnLight').addEventListener('click', () => {
+        tg.HapticFeedback.impactOccurred('light');
+        console.log('Light feedback triggered');
+    });
+
+    document.getElementById('btnMedium').addEventListener('click', () => {
+        tg.HapticFeedback.impactOccurred('medium');
+        console.log('Medium feedback triggered');
+    });
+
+    document.getElementById('btnHeavy').addEventListener('click', () => {
+        tg.HapticFeedback.impactOccurred('heavy');
+        console.log('Heavy feedback triggered');
+    });
+
+    document.getElementById('btnRigid').addEventListener('click', () => {
+        tg.HapticFeedback.impactOccurred('rigid');
+        console.log('Rigid feedback triggered');
+    });
+
+    document.getElementById('btnSoft').addEventListener('click', () => {
+        tg.HapticFeedback.impactOccurred('soft');
+        console.log('Soft feedback triggered');
+    });
+</script>
+</body>
+</html>
